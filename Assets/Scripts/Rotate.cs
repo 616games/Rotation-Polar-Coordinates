@@ -47,7 +47,7 @@ public class Rotate : MonoBehaviour
     private float _angle;
 
     /// <summary>
-    /// Speed of rotation.
+    /// Speed and direction of rotation.
     /// </summary>
     private float _angularVelocity;
 
