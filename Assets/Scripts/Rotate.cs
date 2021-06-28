@@ -133,10 +133,10 @@ public class Rotate : MonoBehaviour
     /// <summary>
     /// Converts polar coordinates to Cartesian x and y coordinates.
     /// </summary>
-    private Vector3 ConvertPolarToCartesian(float _r, float _angle)
+    private Vector3 ConvertPolarToCartesian(float _r, float _angleOfRotation)
     {
-        float _x = _r * Mathf.Cos(_angle);
-        float _y = _r * Mathf.Sin(_angle);
+        float _x = _r * Mathf.Cos(_angleOfRotation);
+        float _y = _r * Mathf.Sin(_angleOfRotation);
         Vector3 _position = new Vector3(_x, _y, 0);
         
         return _position;
