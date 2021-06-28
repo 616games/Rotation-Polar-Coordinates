@@ -47,12 +47,12 @@ public class Rotate : MonoBehaviour
     private float _angle;
 
     /// <summary>
-    /// Speed and direction of rotation.
+    /// How fast is the rotation.
     /// </summary>
     private float _angularVelocity;
 
     /// <summary>
-    /// How much the rotation is speeding up or slowing down.
+    /// How fast velocity is changing.
     /// </summary>
     private float _angularAcceleration;
 
